@@ -1,0 +1,46 @@
+1- //create objects
+ClassName objectName = new ConstructorName();
+for example:
+Student st = new Student();
+//Student is the class name
+//st is the object name
+//new means initilizating the first time
+//Student means constructor
+
+2- //Inheritance
+Means Child class inherit from parent class or Sub class inherit from Super class
+for example:
+public class FullTimeEmployee extends Employee;
+//public class means it is a publicly accessible class
+//FullTimeEmployee is a developer given name for a child class
+// extends means inheritance is taking place
+//Employee is the parent class
+
+3- //Constructors
+//We have basically two types, one is defualt and other is parametrized
+//constructors will build the class at run time
+for example:
+public class Employee
+{
+//varibales
+int emp_id;
+//parametrized constructor
+public Employee(int e_id)
+{
+this.emp_id = e_id;
+//e_id is the value passing from brackets as parameters
+//emp_id is the class variable
+//this. is a reference given to class variable
+//so here we pass values from brackets to class variables
+}
+}
+
+4- Method overloading
+//means using two or more methods with same name in the same class
+//for example constructor is also a method where i keep two constructors means
+i am overloading the methods as in the same class
+
+5- Method Overriding
+//means using two more methods with same name but different class
+//also the paramters may be different (in brackets)
+//for example display method in super class has been modified and used in child class
