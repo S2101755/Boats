@@ -1,4 +1,0 @@
-Keyboard
-Mouse
-Monitor
-Touchpad
